@@ -1,9 +1,9 @@
 import random
 import string
 print("--------Gerador de senhas--------")
-tam = int(input("Escolha o tamanho da senha:"))
-simb = input("A senha terá símbolos?(S/N)").upper()
-num = input("A senha terá números?(S/N))").upper()
+tam = int(input("Escolha o tamanho da senha:\n"))
+simb = input("A senha terá símbolos?(S/N)\n").upper()
+num = input("A senha terá números?(S/N)\n").upper()
 
 
 def gerar_senha(tam,simb,num):
